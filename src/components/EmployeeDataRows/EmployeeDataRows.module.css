@@ -1,0 +1,34 @@
+.employeeTable {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(16, 150, 123);
+    box-shadow: 10px 10px 10px #e9e9e9;
+  }
+  
+  .tableHeading {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(16, 150, 123);
+  }
+  
+  .tableHeading td {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .tableData {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(243, 243, 243, 255);
+    border-bottom: 2px solid #e9e9e9;
+  }
+  
+  .tableData td {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
